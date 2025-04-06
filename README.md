@@ -14,7 +14,7 @@ It demonstrates powerful functionality such as:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/turso-jdbc-demo.git
+git clone https://github.com/conagyurig/tursoDemo.git
 cd turso-jdbc-demo
 ```
 

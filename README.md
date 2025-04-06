@@ -21,18 +21,21 @@ cd turso-jdbc-demo
 ### 2. Add your credentials to application.properties
 
 ```properties
-spring.datasource.url=jdbc:libsql://{your db url}
-spring.datasource.password={your db password}
+spring.datasource.url=jdbc:libsql://{url}
+spring.datasource.password={token}
 ```
 
 ## 📦 API Endpoints
-Method	Endpoint	Description
-GET	/	Get all jobs (paginated & sorted)
-GET	/{id}	Get a job by ID
-POST	/	Create a job (pass status param)
-POST	/{id}	Update a job’s status
-DELETE	/{id}	Delete a job by ID
-POST	/bulk	Create multiple jobs in a batch
+
+| Method | Endpoint | Description                       |
+|--------|----------|-----------------------------------|
+| GET    | /        | Get all jobs (paginated & sorted) |
+| GET    | /{id}    | Get a job by ID                   |
+| POST   | /        | Create a job (pass status param)  |
+| POST   | /{id}    | Update a job’s status             |
+| DELETE | /{id}    | Delete a job by ID                |
+| POST   | /bulk    | Create multiple jobs in a batch   |
+
 
 ## Example
 

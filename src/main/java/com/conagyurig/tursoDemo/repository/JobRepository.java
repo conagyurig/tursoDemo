@@ -1,5 +1,6 @@
-package com.conagyurig.tursoDemo;
+package com.conagyurig.tursoDemo.repository;
 
+import com.conagyurig.tursoDemo.model.Job;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

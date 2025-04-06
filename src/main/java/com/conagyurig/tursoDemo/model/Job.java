@@ -1,4 +1,4 @@
-package com.conagyurig.tursoDemo;
+package com.conagyurig.tursoDemo.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;

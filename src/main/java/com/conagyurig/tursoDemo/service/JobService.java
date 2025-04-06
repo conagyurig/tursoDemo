@@ -1,5 +1,8 @@
-package com.conagyurig.tursoDemo;
+package com.conagyurig.tursoDemo.service;
 
+import com.conagyurig.tursoDemo.model.Job;
+import com.conagyurig.tursoDemo.repository.JobRepository;
+import com.conagyurig.tursoDemo.repository.PageableJobRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

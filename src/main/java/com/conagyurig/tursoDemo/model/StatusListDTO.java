@@ -1,4 +1,4 @@
-package com.conagyurig.tursoDemo;
+package com.conagyurig.tursoDemo.model;
 
 import java.util.List;
 

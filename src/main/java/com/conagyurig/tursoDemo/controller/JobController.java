@@ -1,5 +1,8 @@
-package com.conagyurig.tursoDemo;
+package com.conagyurig.tursoDemo.controller;
 
+import com.conagyurig.tursoDemo.model.Job;
+import com.conagyurig.tursoDemo.service.JobService;
+import com.conagyurig.tursoDemo.model.StatusListDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -10,5 +10,4 @@ public class TursoDemoApplication {
 
 		SpringApplication.run(TursoDemoApplication.class, args);
 	}
-
 }

@@ -21,9 +21,16 @@ cd turso-jdbc-demo
 ### 2. Add your credentials to application.properties
 
 ```properties
+spring.application.name=tursoDemo
+spring.datasource.username=ignored
+spring.datasource.driver-class-name=org.conagyurig.LibSqlDriver
+spring.sql.init.mode=always
 spring.datasource.url=jdbc:libsql://{url}
 spring.datasource.password={token}
 ```
+
+### 3. Run the application
+Run the main method in TursoDemoApplication.java
 
 ## 📦 API Endpoints
 
@@ -41,4 +48,7 @@ spring.datasource.password={token}
 
 curl -X POST "http://localhost:8080/?status=pending"
 
+## 📚 Info
+### Custom Dialect
+Currently Spring Data does not support LibSQL or SQLite so a custom dialect is required which is implemented in LibSQLDialect.java
 
